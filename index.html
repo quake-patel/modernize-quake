@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modernize Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  </head>
+
+  <body class="flex">
+    <div class="side-bar">
+      <div class="side-bar-inner">
+        <div class="logo flex justify-between">
+          <a href="#">
+            <img src="./assets/images/logo.svg" alt="logo.svg" />
+          </a>
+          <div class="close-btn">
+            <img src="./assets/images/close.svg" alt="" />
+          </div>
+        </div>
+        <div class="sidebar-menu">
+          <h4>DASHBOARDS</h4>
+          <div class="sidebar-menu-item-wrapper">
+            <div class="sidebar-menu-item">
+              <div class="sidebar-menu-item-inner">
+                <div class="flex g2">
+                  <div class="sidebar-menu-item-icon">
+                    <img
+                      src="./assets/images/shopping.svg"
+                      alt="shopping.svg"
+                    />
+                  </div>
+                  <h3 class="sidebar-menu-item-text">Modern</h3>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar-menu-item">
+              <div class="sidebar-menu-item-inner">
+                <div class="flex g2">
+                  <div class="sidebar-menu-item-icon">
+                    <img
+                      src="./assets/images/shopping.svg"
+                      alt="shopping.svg"
+                    />
+                  </div>
+                  <h3 class="sidebar-menu-item-text">Analytical</h3>
+                </div>
+                <div class="notification-number">9</div>
+              </div>
+            </div>
+            <div class="sidebar-menu-item">
+              <div class="sidebar-menu-item-inner">
+                <div class="flex g2">
+                  <div class="sidebar-menu-item-icon">
+                    <img
+                      src="./assets/images/shopping.svg"
+                      alt="shopping.svg"
+                    />
+                  </div>
+                  <h3 class="sidebar-menu-item-text">eCommerce</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <h4>APPLICATIONS</h4>
+          <div class="sidebar-menu-item-wrapper">
+            <div class="sidebar-menu-item">
+              <div class="sidebar-menu-item-inner">
+                <div class="flex g2">
+                  <div class="sidebar-menu-item-icon">
+                    <img
+                      src="./assets/images/shopping.svg"
+                      alt="shopping.svg"
+                    />
+                  </div>
+                  <h3 class="sidebar-menu-item-text">Chat</h3>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar-menu-item">
+              <div class="sidebar-menu-item-inner">
+                <div class="flex g2">
+                  <div class="sidebar-menu-item-icon">
+                    <img
+                      src="./assets/images/shopping.svg"
+                      alt="shopping.svg"
+                    />
+                  </div>
+                  <h3 class="sidebar-menu-item-text">Users</h3>
+                </div>
+                <div class="drop-down-icon">
+                  <img src="./assets/images/dropdown2.svg" alt="dropdown.svg" />
+                </div>
+              </div>
+              <div class="drop-down-list">
+                <div class="drop-down-list-item">
+                  <div class="flex justify-between">
+                    <div class="drop-down-list-item-left flex">
+                      <div class="unorder-list">
+                        <img
+                          src="./assets/images/listicon.svg"
+                          alt="listicon.svg"
+                        />
+                      </div>
+                      <h3>Social Profile</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="drop-down-list-item">
+                  <div class="flex justify-between">
+                    <div class="drop-down-list-item-left flex">
+                      <div class="unorder-list">
+                        <img
+                          src="./assets/images/listicon.svg"
+                          alt="listicon.svg"
+                        />
+                      </div>
+                      <h3>Profile</h3>
+                    </div>
+                    <div class="inner-drop-down-icon">
+                      <img
+                        src="./assets/images/dropdown2.svg"
+                        alt="dropdown.svg"
+                      />
+                    </div>
+                  </div>
+                  <div class="dropdown-inner">
+                    <div class="drop-down-inner-list-item">
+                      <div class="flex justify-between">
+                        <div class="drop-down-list-item-left flex">
+                          <div class="unorder-list">
+                            <img
+                              src="./assets/images/listicon.svg"
+                              alt="listicon.svg"
+                            />
+                          </div>
+                          <h3>Style 01</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop-down-inner-list-item">
+                      <div class="flex justify-between">
+                        <div class="drop-down-list-item-left flex">
+                          <div class="unorder-list">
+                            <img
+                              src="./assets/images/listicon.svg"
+                              alt="listicon.svg"
+                            />
+                          </div>
+                          <h3>Style 02</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop-down-inner-list-item">
+                      <div class="flex justify-between">
+                        <div class="drop-down-list-item-left flex">
+                          <div class="unorder-list">
+                            <img
+                              src="./assets/images/listicon.svg"
+                              alt="listicon.svg"
+                            />
+                          </div>
+                          <h3>Style 03</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="drop-down-list-item">
+                  <div class="flex justify-between">
+                    <div class="drop-down-list-item-left flex">
+                      <div class="unorder-list">
+                        <img
+                          src="./assets/images/listicon.svg"
+                          alt="listicon.svg"
+                        />
+                      </div>
+                      <h3>Card</h3>
+                    </div>
+                    <div class="inner-drop-down-icon">
+                      <img
+                        src="./assets/images/dropdown2.svg"
+                        alt="dropdown.svg"
+                      />
+                    </div>
+                  </div>
+                  <div class="dropdown-inner">
+                    <div class="drop-down-inner-list-item">
+                      <div class="flex justify-between">
+                        <div class="drop-down-list-item-left flex">
+                          <div class="unorder-list">
+                            <img
+                              src="./assets/images/listicon.svg"
+                              alt="listicon.svg"
+                            />
+                          </div>
+                          <h3>Style 01</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop-down-inner-list-item">
+                      <div class="flex justify-between">
+                        <div class="drop-down-list-item-left flex">
+                          <div class="unorder-list">
+                            <img
+                              src="./assets/images/listicon.svg"
+                              alt="listicon.svg"
+                            />
+                          </div>
+                          <h3>Style 02</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop-down-inner-list-item">
+                      <div class="flex justify-between">
+                        <div class="drop-down-list-item-left flex">
+                          <div class="unorder-list">
+                            <img
+                              src="./assets/images/listicon.svg"
+                              alt="listicon.svg"
+                            />
+                          </div>
+                          <h3>Style 03</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar-menu-item">
+              <div class="sidebar-menu-item-inner">
+                <div class="flex g2">
+                  <div class="sidebar-menu-item-icon">
+                    <img
+                      src="./assets/images/shopping.svg"
+                      alt="shopping.svg"
+                    />
+                  </div>
+                  <h3 class="sidebar-menu-item-text">Analytical</h3>
+                </div>
+                <div class="drop-down-icon">
+                  <img src="./assets/images/dropdown2.svg" alt="dropdown.svg" />
+                </div>
+              </div>
+              <div class="drop-down-list">
+                <div class="drop-down-list-item">
+                  <div class="flex justify-between">
+                    <div class="drop-down-list-item-left flex">
+                      <div class="unorder-list">
+                        <img
+                          src="./assets/images/listicon.svg"
+                          alt="listicon.svg"
+                        />
+                      </div>
+                      <h3>Social Profile</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <h4>OTHERS</h4>
+          <div class="sidebar-menu-item-wrapper">
+            <div class="sidebar-menu-item">
+              <div class="sidebar-menu-item-inner">
+                <div class="flex g2">
+                  <div class="sidebar-menu-item-icon">
+                    <img
+                      src="./assets/images/shopping.svg"
+                      alt="shopping.svg"
+                    />
+                  </div>
+                  <h3 class="sidebar-menu-item-text">Avatar</h3>
+                </div>
+                <div class="side-tag-primary">Coded</div>
+              </div>
+            </div>
+            <div class="sidebar-menu-item">
+              <div class="sidebar-menu-item-inner">
+                <div class="flex g2">
+                  <div class="sidebar-menu-item-icon">
+                    <img
+                      src="./assets/images/shopping.svg"
+                      alt="shopping.svg"
+                    />
+                  </div>
+                  <h3 class="sidebar-menu-item-text">Outline</h3>
+                </div>
+                <div class="side-tag-white">Outline</div>
+              </div>
+            </div>
+            <div class="sidebar-menu-item">
+              <div class="sidebar-menu-item-inner">
+                <div class="flex g2">
+                  <div class="sidebar-menu-item-icon">
+                    <img
+                      src="./assets/images/shopping.svg"
+                      alt="shopping.svg"
+                    />
+                  </div>
+                  <div class="flex direction-column">
+                    <h3 class="sidebar-menu-item-text">Basic</h3>
+                    <p class="apexcharts-legend-text">8+ Basic Components</p>
+                  </div>
+                </div>
+                <div class="notification-number">9</div>
+              </div>
+            </div>
+          </div>
+          <div class="unlimited-access-signup">
+            <div class="unlimited-access-signup-title">
+              <h5>Unlimited Access</h5>
+              <button class="btn-sm">Signup</button>
+            </div>
+            <img class="rocket" src="./assets/images/rocket.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dashboard">
+      <div class="dashboard-inner">
+        <header>
+          <div class="header-inner">
+            <div class="header-inner-left">
+              <a class="header-logo">
+                <img src="./assets/images/logo.svg" alt="" />
+              </a>
+              <div class="flex g3">
+                <div class="menu-icon">
+                  <img src="./assets/images/menudtn.svg" alt="" />
+                </div>
+                <div class="header-search">
+                  <!--  -->
+                  <div class="searchbtn">
+                    <img src="./assets/images/search.svg" alt="" />
+                  </div>
+                  <!-- <div class="search-area">
+                    <div class="group none">
+                      <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
+                        <g>
+                          <path
+                            d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+                          ></path>
+                        </g>
+                      </svg>
+                      <input class="input" type="search" placeholder="Search" />
+                    </div>
+                  </div> -->
+                  <!--  -->
+                </div>
+              </div>
+            </div>
+            <div class="header-inner-right">
+              <div class="notification-active">
+                <img src="./assets/images/bell.svg" alt="" />
+              </div>
+              <img src="./assets/images/cart.svg" alt="" />
+              <img src="./assets/images/language.svg" alt="" />
+              <img src="./assets/images/grid.svg" alt="" />
+              <img src="./assets/images/profile.svg" alt="" />
+            </div>
+          </div>
+        </header>
+        <div class="dashboard-content">
+          <div class="dashboard-content-inner">
+            <div class="dashboard-banner">
+              <div class="dashboard-banner-inner">
+                <div class="dashboard-banner-text">
+                  <h1>Welcome back Natalia! Check dashboard</h1>
+                  <p>
+                    You have earned 54% more than last month which is great
+                    thing.
+                  </p>
+                  <div class="flex">
+                    <h1>$63,489.50</h1>
+                    <div class="year-tag">Year 2022</div>
+                  </div>
+                  <div>
+                    <button>Check</button>
+                  </div>
+                </div>
+                <div class="dashboard-banner-image">
+                  <img src="./assets/images/banner.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="dashboard-product-goal-earnings">
+              <div class="dashboard-product-goal">
+                <div
+                  class="box-shadow card primary flex justify-center direction-column"
+                >
+                  <div class="flex justify-between">
+                    <div>
+                      <h1 class="white">3267</h1>
+                      <p class="white">Product Goal</p>
+                    </div>
+                    <img class="" src="./assets/images/message.svg" alt="" />
+                  </div>
+                  <div class="progressbar">
+                    <div class="meter">
+                      <span style="width: 65%"
+                        ><span class="progress"></span
+                      ></span>
+                      <div class="tooltiptext">65%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="earnings">
+                <div class="box-shadow card border">
+                  <div class="flex justify-between align-center h-100 g2">
+                    <div class="flex direction-column g1">
+                      <h3>Earnings</h3>
+                      <h1>$678,298</h1>
+                      <div class="flex g1">
+                        <img src="./assets/images/profitloss.svg" alt="" />
+                        <h3>+9%</h3>
+                      </div>
+                    </div>
+                    <div id="projects"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="revenue-updates">
+              <div class="card box-shadow">
+                <div class="flex justify-between">
+                  <div>
+                    <h2>Revenue updates</h2>
+                    <h3>Overview of Profit</h3>
+                  </div>
+                  <div class="month-selector-outer">
+                    <select id="monthSelector" class="month-selector">
+                      <option value="may">May 2022</option>
+                      <option value="april">April 2022</option>
+                      <option value="june">June 2022</option>
+                    </select>
+                  </div>
+                </div>
+                <div id="chart" height="268"></div>
+              </div>
+            </div>
+            <div class="yearly-updates">
+              <div class="card box-shadow">
+                <div class="flex justify-between">
+                  <div>
+                    <h2>Yearly updates</h2>
+                    <h3>Overview of Profit</h3>
+                  </div>
+                </div>
+                <div id="circle" height="205"></div>
+              </div>
+            </div>
+
+            <div class="recent-transactions">
+              <div class="card box-shadow">
+                <div>
+                  <h2>Recent Transactions</h2>
+                  <h3>Income vs Expense</h3>
+                </div>
+                <div class="recent-transaction-details">
+                  <div class="flex justify-between align-center">
+                    <div class="flex g2">
+                      <img src="./assets/images/p.svg" alt="" />
+                      <div class="flex direction-column justify-between g1">
+                        <h2>PayPal Transfer</h2>
+                        <h3>Money added</h3>
+                      </div>
+                    </div>
+                    <h3 class="color-dark">+$6,235</h3>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div class="flex g2">
+                      <img src="./assets/images/bag.svg" alt="" />
+                      <div class="flex direction-column justify-between g1">
+                        <h2>Wallet</h2>
+                        <h3>Bill payment</h3>
+                      </div>
+                    </div>
+                    <h3 class="color-lite">+$345</h3>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div class="flex g2">
+                      <img src="./assets/images/yellowbox.svg" alt="" />
+                      <div class="flex direction-column justify-between g1">
+                        <h2>Credit card</h2>
+                        <h3>Money reversed</h3>
+                      </div>
+                    </div>
+                    <h3 class="color-dark">+$2,235</h3>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div class="flex g2">
+                      <img src="./assets/images/bluebox.svg" alt="" />
+                      <div class="flex direction-column justify-between g1">
+                        <h2>Bank Transfer</h2>
+                        <h3>Money added</h3>
+                      </div>
+                    </div>
+                    <h3 class="color-lite">+$320</h3>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div class="flex g2">
+                      <img src="./assets/images/orangebox.svg" alt="" />
+                      <div class="flex direction-column justify-between g1">
+                        <h2>Refund</h2>
+                        <h3>Bill payment</h3>
+                      </div>
+                    </div>
+                    <h3 class="color-lite">-$32</h3>
+                  </div>
+                  <button class="card-button">View all transactions</button>
+                </div>
+              </div>
+            </div>
+            <div class="product-performances">
+              <div class="card box-shadow">
+                <div class="flex justify-between">
+                  <div>
+                    <h2>Recent Transactions</h2>
+                    <h3>Income vs Expense</h3>
+                  </div>
+                  <div class="month-selector-outer">
+                    <select class="month-selector">
+                      <option value="may">May 2022</option>
+                      <option value="april">April 2022</option>
+                      <option value="june">June 2022</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="product-type">
+                  <div class="product-item">
+                    <img src="./assets/images/grid2.svg" alt="" />
+                    <h4 class="color-lite">App</h4>
+                  </div>
+                  <div class="product-item">
+                    <img src="./assets/images/grid2.svg" alt="" />
+                    <h4 class="color-lite">Mobile</h4>
+                  </div>
+                  <div class="product-item">
+                    <img src="./assets/images/grid2.svg" alt="" />
+                    <h4 class="color-lite">SaaS</h4>
+                  </div>
+                  <div class="product-item">
+                    <img src="./assets/images/grid2.svg" alt="" />
+                    <h4 class="color-lite">Products</h4>
+                  </div>
+                  <div class="product-item">
+                    <img src="./assets/images/grid2.svg" alt="" />
+                    <h4 class="color-lite">Others</h4>
+                  </div>
+                </div>
+                <div class="product-table">
+                  <table cellpadding="0">
+                    <thead>
+                      <tr>
+                        <th><h3 class="text-start color-lite">Assigned</h3></th>
+                        <th><h3 class="text-start color-lite">Progress</h3></th>
+                        <th><h3 class="text-start color-lite">Priority</h3></th>
+                        <th><h3 class="text-start color-lite">Budget</h3></th>
+                        <th><h3 class="text-start color-lite">Chart</h3></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="flex g2">
+                            <img src="./assets/images/product1.svg" alt="" />
+                            <div class="flex direction-column g1">
+                              <h3 class="color-dark">Minecraf App</h3>
+                              <h4 class="color-lite-normal">Jason Roy</h4>
+                            </div>
+                          </div>
+                        </td>
+                        <td><p>73.2%</p></td>
+                        <td><span class="green">Low</span></td>
+                        <td><p>$3.5k</p></td>
+                        <td><img src="./assets/images/chart.svg" alt="" /></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="flex g2">
+                            <img src="./assets/images/product2.svg" alt="" />
+                            <div class="flex direction-column g1">
+                              <h3 class="color-dark">Web App Project</h3>
+                              <h4 class="color-lite-normal">Mathew Flintoff</h4>
+                            </div>
+                          </div>
+                        </td>
+                        <td><p>56.8%</p></td>
+                        <td><span class="yellow">Low</span></td>
+                        <td><p>$3.5k</p></td>
+                        <td>
+                          <img src="./assets/images/chartpurple.svg" alt="" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="flex g2">
+                            <img src="./assets/images/product3.svg" alt="" />
+                            <div class="flex direction-column g1">
+                              <h3 class="color-dark">Modernize Dashboard</h3>
+                              <h4 class="color-lite-normal">Anil Kumar</h4>
+                            </div>
+                          </div>
+                        </td>
+                        <td><p>25%</p></td>
+                        <td><span class="blue">Low</span></td>
+                        <td><p>$3.5k</p></td>
+                        <td><img src="./assets/images/chart.svg" alt="" /></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="flex g2">
+                            <img src="./assets/images/product4.svg" alt="" />
+                            <div class="flex direction-column g1">
+                              <h3 class="color-dark">Dashboard Co</h3>
+                              <h4 class="color-lite-normal">George Cruize</h4>
+                            </div>
+                          </div>
+                        </td>
+                        <td><p>96.3%</p></td>
+                        <td><span class="orange">Low</span></td>
+                        <td><p>$3.5k</p></td>
+                        <td>
+                          <img src="./assets/images/chartpurple.svg" alt="" />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="total-profit">
+              <div class="card box-shadow">
+                <div class="flex justify-between">
+                  <div>
+                    <h2>Total profit</h2>
+                  </div>
+                  <img src="./assets/images/more.svg" alt="" />
+                </div>
+                <div class="total-profit-money flex g2">
+                  <img src="./assets/images/totalGrid.svg" alt="" />
+                  <div class="flex direction-column">
+                    <h2>$63,489.50</h2>
+                    <h3>Money added</h3>
+                  </div>
+                </div>
+                <div id="profit"></div>
+              </div>
+            </div>
+            <div class="medical-pro">
+              <div class="card box-shadow">
+                <div class="flex justify-between">
+                  <div>
+                    <h2>Medical pro branding</h2>
+                  </div>
+                </div>
+                <div class="medical-date"><h4>16 Apr, 2022</h4></div>
+                <div class="medical-details">
+                  <div class="flex direction-column">
+                    <span>Due Date</span>
+                    <h4>Oct 23, 2022</h4>
+                  </div>
+                  <div class="divider-horizontal"></div>
+                  <div class="flex direction-column border-left-right">
+                    <span>Budget</span>
+                    <h4>$98,450</h4>
+                  </div>
+                  <div class="divider-horizontal"></div>
+                  <div class="flex direction-column">
+                    <span>Expense</span>
+                    <h4>$48,240</h4>
+                  </div>
+                </div>
+                <div class="divider-2"></div>
+                <h5>Teams</h5>
+                <div class="flex g2">
+                  <span class="blue">Bootstrap</span>
+                  <span class="green">React</span>
+                  <span class="orange">Angular</span>
+                </div>
+                <div class="divider-2"></div>
+                <h5>Leaders</h5>
+                <div class="flex g2">
+                  <img src="./assets/images/profile2.svg" alt="" />
+                  <img src="./assets/images/profile3.svg" alt="" />
+                  <img src="./assets/images/profile4.svg" alt="" />
+                  <img src="./assets/images/profile5.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="daily-activities">
+              <div class="card box-shadow">
+                <div>
+                  <h2>Daily activities</h2>
+                </div>
+                <div class="daily-activities-list flex direction-column">
+                  <div class="daily-activities-list-item">
+                    <p class="color-normal">09:46</p>
+                    <img src="./assets/images/purplecircle.svg" alt="" />
+                    <p>Payment received from John Doe of $385.90</p>
+                  </div>
+                  <div class="daily-activities-list-item">
+                    <p class="color-normal">09:46</p>
+                    <img src="./assets/images/bluecircle.svg" alt="" />
+                    <p>
+                      <span class="color-dark">New sale recorded</span>
+                      <a href="#" class="color-primary underline-none"
+                        >#ML-3467</a
+                      >
+                    </p>
+                  </div>
+                  <div class="daily-activities-list-item">
+                    <p class="color-normal">09:46</p>
+                    <img src="./assets/images/greencircle.svg" alt="" />
+                    <p>Payment was made of $64.95 to Michael Anderson</p>
+                  </div>
+                  <div class="daily-activities-list-item">
+                    <p class="color-normal">09:46</p>
+                    <img src="./assets/images/yellowcirlce.svg" alt="" />
+                    <p>
+                      <span class="color-dark">New sale recorded</span>
+                      <a href="#" class="color-primary underline-none"
+                        >#ML-3467</a
+                      >
+                    </p>
+                  </div>
+                  <div class="daily-activities-list-item">
+                    <p class="color-normal">09:46</p>
+                    <img src="./assets/images/orangecircle.svg" alt="" />
+                    <p>Project meeting</p>
+                  </div>
+                  <div class="daily-activities-list-item">
+                    <p class="color-normal">09:46</p>
+                    <img src="./assets/images/darkbluecircle.svg" alt="" />
+                    <p>Payment received from John Doe of $385.90</p>
+                  </div>
+                  <div class="daily-activities-list-item last-activitie">
+                    <p class="color-normal">09:46</p>
+                    <img src="./assets/images/purplecircle.svg" alt="" />
+                    <p>
+                      <span class="color-dark">New sale recorded</span>
+                      <a href="#" class="color-primary underline-none"
+                        >#ML-3467</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./assets/js/script.js"></script>
+
+<script>
+  // Revenue updates Chart
+  document.addEventListener("DOMContentLoaded", () => {
+    const data = {
+      may: {
+        categories: [
+          "16/04",
+          "17/04",
+          "18/04",
+          "19/04",
+          "20/04",
+          "21/04",
+          "22/04",
+        ],
+        series: [
+          {
+            name: "Modernize",
+            data: [2000, 2800, 2100, 3000, 20, 4000, 3300],
+          },
+          {
+            name: "Spike Admin",
+            data: [1500, 1400, 4000, 1500, 1700, 1800, 3000],
+          },
+        ],
+      },
+      april: {
+        categories: [
+          "",
+          "16/05",
+          "17/05",
+          "18/05",
+          "19/05",
+          "20/05",
+          "21/05",
+          "22/05",
+          "",
+        ],
+        series: [
+          {
+            name: "Modernize",
+            data: [2000, 1200, 3000, 2300, 3000, 2000, 4000],
+          },
+          {
+            name: "Spike Admin",
+            data: [3400, 2700, 1600, 1700, 1900, 2000, 3000],
+          },
+        ],
+      },
+      june: {
+        categories: [
+          "",
+          "16/06",
+          "17/06",
+          "18/06",
+          "19/06",
+          "20/06",
+          "21/06",
+          "22/06",
+          "",
+        ],
+        series: [
+          {
+            name: "Modernize",
+            data: [0, 2000, 2800, 2100, 3000, 2400, 4000, 3300, 4000],
+          },
+          {
+            name: "Spike Admin",
+            data: [1300, 1500, 1400, 1600, 1500, 1700, 1800, 3000, 2990],
+          },
+        ],
+      },
+    };
+
+    const initialMonth = "may";
+
+    var options = {
+      series: data[initialMonth].series,
+      chart: {
+        height: 268,
+        type: "line",
+        animations: {
+          enabled: true,
+          easing: "linear",
+          dynamicAnimation: {
+            speed: 1000,
+          },
+        },
+        toolbar: {
+          show: false,
+        },
+        zoom: {
+          enabled: false,
+        },
+      },
+      colors: ["#5D87FF", "#49BEFF"],
+      dataLabels: {
+        enabled: false,
+      },
+      stroke: {
+        curve: "smooth",
+        width: 3,
+      },
+      markers: {
+        size: 0,
+      },
+      xaxis: {
+        labels: {
+          style: {
+            colors: [
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+            ],
+            cssClass: "fonts-chart",
+            fontFamily: "Plus Jakarta Sans, sans-serif",
+          },
+        },
+        categories: data[initialMonth].categories,
+        axisTicks: {
+          show: false,
+        },
+      },
+      yaxis: {
+        min: 0,
+        max: 4000,
+        tickAmount: 4,
+        padding: {
+          top: 0,
+        },
+        labels: {
+          style: {
+            colors: [
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+              "#7C8FAC",
+            ],
+            cssClass: "fonts-chart",
+            fontFamily: "Plus Jakarta Sans, sans-serif",
+          },
+          formatter: function (value) {
+            if (value === 0) {
+              return "0";
+            } else {
+              return value / 1000 + "k";
+            }
+          },
+        },
+      },
+      legend: {
+        position: "top",
+        horizontalAlign: "left",
+        fontFamily: "Plus Jakarta Sans, sans-serif",
+      },
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+
+    document
+      .getElementById("monthSelector")
+      .addEventListener("change", function () {
+        const selectedMonth = this.value;
+        chart.updateOptions({
+          series: data[selectedMonth].series,
+          xaxis: {
+            categories: data[selectedMonth].categories,
+          },
+        });
+      });
+  });
+
+  //Yearly updates circle
+  var options = {
+    series: [35, 45, 20],
+    chart: {
+      height: 300,
+      type: "donut",
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    plotOptions: {
+      pie: {
+        donut: {
+          size: "88%",
+          background: "transparent",
+          labels: {
+            show: true,
+            name: {
+              show: true,
+              offsetY: 7,
+            },
+            value: {
+              show: false,
+            },
+            total: {
+              show: true,
+              color: "#2A3547",
+              fontSize: "20px",
+              fontWeight: "600",
+              label: "$500,458",
+            },
+          },
+        },
+      },
+    },
+    labels: ["2022", "2021", "2020"],
+    colors: ["#5D87FF", "#49BEFF", "#13DEB9"],
+    legend: {
+      show: true,
+      position: "bottom",
+      horizontalAlign: "center",
+      fontSize: "12px",
+      color: ["#7C8FAC", "#7C8FAC", "#7C8FAC"],
+      cssClass: "circle-point",
+      fontFamily: "Plus Jakarta Sans, sans-serif",
+      markers: {
+        radius: 12,
+      },
+      itemMargin: {
+        vertical: 20,
+        horizontal: 5,
+        cssClass: "chart-values",
+      },
+    },
+  };
+
+  var chart = new ApexCharts(document.querySelector("#circle"), options);
+  chart.render();
+
+  // Total profit chart
+  var options = {
+    series: [
+      {
+        name: "series1",
+        data: [
+          { x: "2019", y: 12000, marker: { size: 0 } },
+          { x: "2020", y: 18000, marker: { size: 0 } },
+          {
+            x: "2021",
+            y: 16000,
+            marker: {
+              size: 5,
+              fillColor: "#5D87FF",
+              strokeColor: "#ffffff",
+              strokeWidth: 2,
+            },
+          },
+          { x: "2022", y: 19000, marker: { size: 0 } },
+        ],
+      },
+    ],
+    chart: {
+      toolbar: {
+        show: false,
+      },
+      height: 250,
+      type: "area",
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    stroke: {
+      curve: "smooth",
+      width: 2,
+      colors: ["#5D87FF"],
+    },
+    xaxis: {
+      categories: ["2019", "2020", "2021", "2022"],
+      labels: {
+        style: {
+          colors: [
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+          ],
+          cssClass: "fonts-chart",
+        },
+      },
+      axisTicks: {
+        show: false,
+      },
+    },
+    yaxis: {
+      labels: {
+        style: {
+          colors: [
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+            "#7C8FAC",
+          ],
+          cssClass: "fonts-chart",
+        },
+        formatter: function (value) {
+          return value / 1000 + "k";
+        },
+      },
+      min: 12000,
+      max: 20000,
+      tickAmount: 4,
+    },
+    tooltip: {
+      x: {
+        formatter: function (value) {
+          return value;
+        },
+      },
+      y: {
+        formatter: function (value) {
+          if (value === 0) {
+            return "0";
+          } else {
+            return value / 1000 + "k";
+          }
+        },
+      },
+    },
+    fill: {
+      type: "gradient",
+      gradient: {
+        shadeIntensity: 1,
+        opacityFrom: 0.5,
+        opacityTo: 0.1,
+        stops: [0, 100],
+        colorStops: [
+          {
+            offset: 0,
+            color: "#5D87FF",
+            opacity: 0.5,
+          },
+          {
+            offset: 100,
+            color: "#5D87FF",
+            opacity: 0.1,
+          },
+        ],
+      },
+    },
+    markers: {
+      size: 0,
+    },
+  };
+
+  var chart = new ApexCharts(document.querySelector("#profit"), options);
+  chart.render();
+
+  // Earning chart
+  var projects = {
+    series: [
+      {
+        name: "",
+        data: [4, 10, 9, 7, 9, 10, 11, 8, 10, 9],
+      },
+    ],
+    chart: {
+      type: "bar",
+      fontFamily: "Plus Jakarta Sans', sans-serif",
+      foreColor: "#adb0bb",
+      height: 47,
+      width: 109,
+
+      resize: true,
+      barColor: "#fff",
+      toolbar: {
+        show: false,
+      },
+      sparkline: {
+        enabled: true,
+      },
+    },
+    colors: ["#49BEFF"],
+    grid: {
+      show: false,
+    },
+    plotOptions: {
+      bar: {
+        horizontal: false,
+        startingShape: "flat",
+        endingShape: "flat",
+        columnWidth: "60%",
+        barHeight: "20%",
+        endingShape: "rounded",
+        distributed: true,
+        borderRadius: 2,
+      },
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    stroke: {
+      show: true,
+      width: 2.5,
+      colors: ["rgba(0,0,0,0.01)"],
+    },
+    xaxis: {
+      axisBorder: {
+        show: false,
+      },
+      axisTicks: {
+        show: false,
+      },
+      labels: {
+        show: false,
+      },
+    },
+    yaxis: {
+      labels: {
+        show: false,
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    fill: {
+      opacity: 1,
+    },
+    tooltip: {
+      theme: "dark",
+      style: {
+        fontSize: "12px",
+      },
+      x: {
+        show: false,
+      },
+    },
+  };
+
+  var chart_column_basic = new ApexCharts(
+    document.querySelector("#projects"),
+    projects
+  );
+  chart_column_basic.render();
+</script>

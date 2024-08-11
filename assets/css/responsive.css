@@ -1,0 +1,240 @@
+@media only screen and (max-width: 1474px) {
+  .side-bar {
+    padding-left: 12px;
+  }
+  .medical-details {
+    gap: 15px;
+  }
+  .border-left-right::before {
+    left: -15px;
+  }
+  .border-left-right::after {
+    right: -15px;
+  }
+  .card {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 1315px) {
+  .dashboard-banner-inner {
+    padding: 37px 14px 0px 15px;
+  }
+  h4 {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 1230px) {
+  .dashboard-banner {
+    width: 100%;
+    order: 1;
+  }
+  .dashboard-product-goal-earnings {
+    width: 50%;
+    order: 2;
+  }
+  .yearly-updates {
+    width: 50%;
+    order: 3;
+  }
+  .revenue-updates {
+    width: 100%;
+    order: 4;
+  }
+  .product-performances {
+    width: 100%;
+    order: 5;
+  }
+  .recent-transactions {
+    width: 50%;
+    order: 6;
+  }
+  .total-profit {
+    width: 50%;
+    order: 7;
+  }
+  .medical-pro {
+    width: 50%;
+    order: 8;
+  }
+  .daily-activities {
+    width: 50%;
+    order: 9;
+  }
+}
+@media only screen and (max-width: 992px) {
+  header {
+    padding-left: 0px;
+  }
+  .menu-icon {
+    display: flex !important;
+  }
+  .logo {
+    justify-content: end;
+  }
+  .logo a {
+    display: none;
+  }
+  .sidebar-menu-item-inner {
+    padding: 5px 12px;
+  }
+  .side-bar-inner .divider {
+    margin: 12px 0;
+  }
+  .side-bar-inner .logo {
+    padding-bottom: 20px;
+  }
+  .close-btn {
+    display: block;
+  }
+  .side-bar {
+    padding-left: 0;
+  }
+  .dashboard {
+    width: 100% !important;
+    z-index: 1;
+  }
+  .dashboard.active {
+    width: 100% !important;
+  }
+  .header-logo {
+    display: block !important;
+  }
+  .side-bar {
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    padding-left: 12px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  header .header-inner {
+    padding: 22px 25px 22px 25px;
+  }
+  .medical-pro {
+    order: 7;
+  }
+  .total-profit {
+    order: 8;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .recent-transaction-details {
+    gap: 16px;
+  }
+  .total-profit,
+  .daily-activities {
+    width: 100%;
+  }
+  .dashboard-product-goal-earnings {
+    flex-direction: column;
+    width: 50%;
+  }
+  .dashboard-banner,
+  .dashboard-product-goal-earnings,
+  .revenue-updates,
+  .yearly-updates,
+  .recent-transactions,
+  .product-performances,
+  .total-profit,
+  .medical-pro,
+  .daily-activities {
+    padding: 10px;
+  }
+  /* banner */
+  .dashboard-banner-inner {
+    flex-direction: column;
+    padding-top: 24px;
+  }
+  .dashboard-banner-image {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: -155px;
+  }
+  .dashboard-banner-image svg {
+    width: 100%;
+    max-width: 320px;
+  }
+  .product-table {
+    overflow-x: scroll;
+  }
+  .product-table table {
+    width: 560px;
+  }
+  .product-item {
+    width: 65px;
+    height: 65px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .recent-transactions {
+    width: 100%;
+  }
+  .medical-pro {
+    width: 100%;
+    order: 8;
+  }
+  .total-profit {
+    order: 7;
+  }
+  .recent-transactions {
+    order: 5;
+  }
+  .product-performances {
+    order: 6;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .revenue-updates {
+    order: 3;
+  }
+  .yearly-updates {
+    width: 100%;
+    order: 4;
+  }
+  .dashboard-product-goal-earnings {
+    width: 100%;
+    gap: 20px;
+  }
+  .dashboard-banner-text {
+    width: 100%;
+  }
+  .dashboard-banner-image {
+    margin-top: -80px;
+  }
+  .header-inner {
+    flex-direction: column;
+  }
+  .header-inner-left {
+    justify-content: space-between;
+  }
+  .header-inner-right {
+    padding-top: 5px;
+    justify-content: end;
+  }
+}
+@media only screen and (max-width: 430px) {
+  header .header-inner {
+    padding: 15px 20px 10px 20px;
+  }
+  .dashboard-content {
+    padding: 10px;
+  }
+  .card {
+    padding: 10px;
+  }
+  .dashboard-banner-text {
+    width: 100%;
+  }
+  .dashboard-banner-image {
+    margin-top: -80px;
+  }
+  .dashboard-banner-image svg {
+    max-width: 220px;
+    height: auto;
+    padding-left: 6px;
+    margin-right: -5px;
+  }
+}
